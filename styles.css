@@ -1,0 +1,95 @@
+/* styles.css - External Stylesheet for Walid Alsadeq Website */
+/* Author: Walid Alsadeq */
+/* Description: Demonstrates CSS styling, selectors, box model, and formatting */
+
+/* CSS Reset */
+body, header, nav, main, footer, section, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+}
+
+nav a:hover {
+    background: #666;
+}
+
+/* Main content box model */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Section and footer styling */
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+/* Project box class */
+.project-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+}
+
+/* Contact ID example */
+#contact {
+    text-align: center;
+}
+
+/* Map box styling */
+#map-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Links */
+a {
+    color: #00aced;
+}
+
+a:hover {
+    text-decoration: underline;
+}
